@@ -34,7 +34,7 @@ start)
     echo -ne "${Info} $NAME 启动成功...[ID:$NAME_PID]\n$REMOTE --> $LOCAL\n\n"
     exit 0;
   } || {
-    echo "${Info} $NAME 启动失败! "
+    echo -e "${Info} $NAME 启动失败! "
     exit 1;
   }
   ;;
