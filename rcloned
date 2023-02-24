@@ -1,5 +1,5 @@
 #!/bin/bash
-### 该脚本不是我写的，修改了一些小内容
+### 脚本不是我写的，仅仅修改了一部分内容，原作者不晓得是谁！
 ### 教程地址 https://v2rayssr.com/openwrt-emby.html
 
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
