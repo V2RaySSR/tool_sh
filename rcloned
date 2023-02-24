@@ -11,7 +11,7 @@
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
  
 REMOTE='aliyun:/ '   # Rclone配置时填写的 name
-LOCAL='/opt/aliyun'  # 挂载地址，VPS本地挂载目录
+LOCAL='/aliyun'  # 挂载地址，VPS本地挂载目录
 CONFIG='/root/.config/rclone/rclone.conf'  # Rclone 的配置文件地址
 DEMO='rclone'
  
