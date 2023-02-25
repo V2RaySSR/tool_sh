@@ -22,7 +22,7 @@ start)
   ps -ef |grep -v grep |grep -q "$REMOTE"
   [ $? -eq '0' ] && {
     NAME_PID="$(ps -C $NAME -o pid= |head -n1 |grep -o '[0-9]\{1,\}')"
-    [ -n "$NAME_PID" ] && echo "${Info} $NAME [ID:$NAME_PID] 正在运行...";
+    [ -n "$NAME_PID" ] && echo -e "${Info} $NAME [ID:$NAME_PID] 正在运行...";
     exit 1;
   }
   fusermount -zuq $LOCAL >/dev/null 2>&1
